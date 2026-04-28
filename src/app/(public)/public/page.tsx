@@ -513,7 +513,7 @@ export default function LandingPage() {
       <div style={{ padding: '0 6% 80px' }}>
         <div className="cta-banner">
           <div className="cta-banner-left">
-            <div className="cta-banner-title">Siap mulai <em>Tugas Akhir</em>?</div>
+            <div className="cta-banner-title">Ayo Mulai <em>Tugas Akhir</em>?</div>
             <div className="cta-banner-desc">Tidak perlu kartu kredit. Mulai menggambar zona dalam 30 detik.</div>
           </div>
           <Show when="signed-out">
