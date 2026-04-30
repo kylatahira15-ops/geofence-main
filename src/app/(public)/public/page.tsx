@@ -403,18 +403,17 @@ export default function LandingPage() {
       <section className="hero">
         <div>
           <h1 className="hero-title">
-            Draw zones.<br />
-            <em>Simulate</em> boundaries.<br />
+            Dashboard.<br />
+            <em>Monitoring</em> Kapal<br />
             Research faster.
           </h1>
           <p className="hero-desc">
-            Platform riset geofencing interaktif untuk researcher dan developer.
-            Gambar area, simpan ke database, dan uji logika geospasial tanpa perlu setup infrastruktur.
+            Sistem monitoring kapal berbasis AIS, deteksi citra, dan geofencing untuk memantau posisi kapal secara real-time serta memberikan peringatan dini pada area pelabuhan.
           </p>
           <div className="hero-cta">
             <Show when="signed-out">
               <Link href="/sign-up" className="btn-large">
-                Mulai gratis
+                Mulai Monitoring
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </Link>
             </Show>
@@ -513,8 +512,8 @@ export default function LandingPage() {
       <div style={{ padding: '0 6% 80px' }}>
         <div className="cta-banner">
           <div className="cta-banner-left">
-            <div className="cta-banner-title">Ayo Mulai <em>Tugas Akhir</em>?</div>
-            <div className="cta-banner-desc">Tidak perlu kartu kredit. Mulai menggambar zona dalam 30 detik.</div>
+            <div className="cta-banner-title">Ayo Mulai <em>Monitoring kapal</em>?</div>
+            <div className="cta-banner-desc">Pantau pergerakan kapal secara real-time dan tingkatkan keamanan area pelabuhan.</div>
           </div>
           <Show when="signed-out">
             <Link href="/sign-up" className="btn-large-white">Mulai sekarang →</Link>
